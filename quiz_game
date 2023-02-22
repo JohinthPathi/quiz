@@ -1,0 +1,41 @@
+print("Welcome to my game!")
+playing=input("Do you want to play?[yes/no] ")
+if(playing!="yes"):
+  quit()
+print("Let's play")
+marks=0
+answer=input("What does CPU stands for? ")
+if(answer.lower()=="central processing unit"):
+  print("Congratulations, Your answer is correct")
+  marks=marks+1
+else:
+  print("Sorry, your answer is incorrect")
+
+answer=input("What does USB stands for? ")
+if(answer.lower()=="universal serial bus"):
+  print("Congratulations, Your answer is correct")
+  marks+1
+else:
+  print("Sorry, your answer is incorrect")
+
+answer=input("Who invented computer? ")
+if(answer.lower()=="charles babbage"):
+  print("Congratulations, Your answer is correct")
+  marks=marks+1
+else:
+  print("Sorry, your answer is incorrect")
+
+answer=input("Who is the richest man in India? ")
+if(answer.lower()=="gautum adani"):
+  print("Congratulations, Your answer is correct")
+  marks=marks+1
+else:
+  print("Sorry, your answer is incorrect")
+
+answer=input("Who is the captain of Indian Cricket team? ")
+if(answer.lower()=="rohit sharma"):
+  print("Congratulations, Your answer is correct")
+  marks=marks+1
+else:
+  print("Sorry, your answer is incorrect")
+print("Total score: ",marks)
